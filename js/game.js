@@ -117,6 +117,7 @@ if(refer2===0){
                  if (frameCount % 20 === 0) {
                      fruits = createSprite(random(100, 1000), 0, 100, 100);
                      fruits.velocityY = 6;
+                     fruits.lifetime = 300;
                      var rand = Math.round(random(1,5));
                      switch(rand){
                          case 1: fruits.addImage("fruit1",fruit1_img);
